@@ -4,7 +4,7 @@ const Container = styled.div``
 
 const Title = styled.h1`
     color: white;
-    
+
 `
 
 const Logo = styled.img``
@@ -16,6 +16,7 @@ const Input = styled.input``
 
 export default () => {
     return <Container>
-        <Title>Profile</Title>
+        <Logo/>
+        <Title>회원가입</Title>
     </Container>
 }
